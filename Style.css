@@ -1,0 +1,546 @@
+/*
+CSS for HACK#HAHA
+*/
+body {
+  background-color: white;
+  line-height: 160%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: justify;
+  font-family: sans-serif;
+  }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left ul {
+  list-style: none;
+}
+
+.left ul li {
+  display: inline-block;
+}
+
+.left ul li a {
+  float: left;
+}
+
+.left ul li a {
+  font-size: 12px;
+  padding-right: 0px;
+  margin-left: 18px;
+  color: rgba(0, 0, 0, 0.527);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.left ul li a:hover {
+  color:rgba(0, 0, 0, 0.2);
+}
+
+#main {
+  font-weight: lighter;
+  text-align: center;
+  margin-left: 440px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+}
+
+.right ul {
+  list-style: none;
+}
+
+.right ul li {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.right ul li a {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.527);
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 530px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container #stage-head {
+  background-image: url("./Images/Stage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  padding-top: 200px;
+  padding-bottom: 250px;
+  padding-left: 100px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.img-container #stage-head h1 {
+  line-height: 150%;
+  color: white;
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.img-container #stage-head #notes {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 130%;
+}
+
+.img-container #stage-head .free #start {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-left: 350px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-style: solid;
+  border-color: wheat;
+}
+
+.img-container #stage-head .free #start:hover {
+  background-color: white;
+  color: black;
+}
+
+.flexbox {
+  display: flex ;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.flexbox #funny-hack {
+  padding-left: 80px;
+  padding-right: 150px;
+  font-family: sans-serif;
+}
+
+.flexbox #funny-hack h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.90);
+}
+
+.flexbox #funny-hack h5 {
+  font-size: 30px;
+  font-weight: lighter;
+  padding-top: 60px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.flexbox #funny-notes p {
+  font-size: 20px;
+  line-height: 170%;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#our-offer {
+  font-size: 45px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 250px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent #img1 {
+  background-image: url("./Images/Mentoring2.png");
+  width: 320px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  margin-left: 90px;
+}
+
+.parent #img1 #mentor {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.parent #img1 #mentor:hover {
+  border-color: rgba(255, 255, 255, 0.625);
+  color: rgba(255, 255, 255, 0.625);
+}
+
+.parent #img2 {
+  background-image: url("./Images/Classes.png");
+  width: 320px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  margin-left: 35px;
+}
+
+.parent #img2 #class {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.parent #img2 #class:hover {
+  border-color: rgba(255, 255, 255, 0.625);
+  color: rgba(255, 255, 255, 0.625);
+}
+
+.parent #img3 {
+  background-image: url("./Images/Workshops.png");
+  width: 320px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  margin-left: 35px;
+}
+
+.parent #img3 #workshops {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.parent #img3 #workshops:hover {
+  border-color: rgba(255, 255, 255, 0.625);
+  color: rgba(255, 255, 255, 0.625);
+}
+.parent #img4 {
+  background-image: url("./Images/Events1.png");
+  width: 320px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  margin-left: 35px;
+}
+
+.parent #img4 #event {
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1.0);
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.parent #img4 #event:hover {
+  border-color: rgba(255, 255, 255, 0.625);
+  color: rgba(255, 255, 255, 0.625);
+}
+
+.mentor-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mentor-container .stand-up {
+  background-image: url("./Images/Mentoring.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  margin-top: 60px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 650px;
+  text-align: left;
+  padding-top: 270px;
+  padding-left: 760px;
+}
+
+.mentor-container .stand-up h3 {
+  color: white;
+  font-size: 45px;
+  font-weight: lighter;
+  padding-right: 250px;
+}
+
+.mentor-container .stand-up p {
+  color: white;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 150%;
+}
+
+.mentor-container .stand-up #stand {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin-left: 250px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+}
+
+.mentor-container .stand-up #stand:hover {
+  color: black;
+  background-color: white;
+}
+
+#people-say {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.notes-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 70px;
+}
+
+.notes-flex #norma #k-norm {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.notes-flex p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: -200%;
+}
+
+.notes-flex #Kevin h4 {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.notes-flex #Kevin p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: -200%;
+}
+
+.notes-flex #Jason h4 {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.notes-flex #Jason p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: -200%;
+}
+
+.notes-flex #Kim h4 {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.notes-flex #Kim p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: -200%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 600px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.form-container h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.897);
+}
+
+.form-container #name {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container #name #first-name #required1 {
+  font-size: 20px;
+}
+
+.form-container #name #first-name #myText {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left:330px;
+  margin-top: 10px;
+}
+
+.form-container #name #first-name .caption-text {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.form-container #name .last-name #myText {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left:330px;
+  margin-top: 34px;
+  margin-left: 30px;
+}
+
+.form-container #name .last-name .caption-text {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: -2px;
+}
+
+.form-container .e-mail #required2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container .e-mail #myText {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left:865px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.form-container .phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container .phone .country-code #required3 {
+  font-size: 20px;
+}
+
+.form-container .phone .country-code #numbers {
+  margin-top: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.form-container .phone .country-code .caption-text {
+  font-size: 13px;
+}
+
+.form-container .phone #sec-set-num #numbers {
+  margin-top: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 400px;
+}
+
+.form-container .phone #sec-set-num .caption-text {
+  font-size: 13px;
+}
+
+.form-container .phone #last-num #numbers {
+  margin-top: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 200em;;
+}
+
+.form-container .phone #last-num .caption-text {
+  font-size: 13px;
+}
+
+.form-container .message #required4 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
+}
+
+.form-container .message #myText {
+  padding-top: 12px;
+  padding-bottom: 100px;
+  padding-left:865px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.form-container #finish #submit {
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  border-style: solid;
+  border-color: black;
+}
+
+.form-container #finish #submit:hover {
+  background-color: black;
+  color: white;
+}
