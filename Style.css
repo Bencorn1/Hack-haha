@@ -544,3 +544,49 @@ body {
   background-color: black;
   color: white;
 }
+
+.end-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.end-container #haha {
+  display: flex;
+  flex-direction: row;
+  font-size: 7px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+}
+
+.end-container #haha #corner {
+  margin-right: 665px;
+}
+
+.end-container #haha #corner:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.end-container #haha #content {
+  margin-left: 670px;
+}
+
+.end-container #haha #content:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+.end-container #copyright h2 {
+  font-size: 20px;
+  font-stretch: expanded;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.end-container #austin h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 30px;
+}
